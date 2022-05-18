@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #eeeeee;;
+
+}
+/* общие и индекс */
+.page{display: flex;font-family: cursive;}
+.left-column{display:flex; width: 15%;height: 100%;}
+.center-column{display:flex; flex-direction: column; width: 70%;align-content: center; flex-wrap: wrap;}
+.right-column{display:flex; width: 15%;}
+.left_nav{
+    display: flex;
+    max-height: 16vh;
+    min-width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left_nav2{
+    justify-content: space-around;
+}
+
+.name-project{
+    background-color: white;
+    width: 1000px;
+    max-height: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+.container-login{
+    height: 55px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.login{
+    /* font-size: 20px; */
+    padding-left: 10px;
+}
+
+.index-mainText{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.index_nav{
+    font-size: 25px;
+}
+/* список студентов */
+.studentList-buttonContainer{
+    display: flex;
+    max-width: 800px;
+    height: 15vh;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+.studentList-buttonContainer-collumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.my_Button1{width: 350px;height: 20px; background-color: #bbbbbb;}
+.my_Button2{width: 250px;height: 20px; background-color: #bbbbbb;}
+.my_Button3{width: 300px;height: 25px; background-color: #bbbbbb; margin-left: 25px; margin-bottom: 20px;}
+.caption-table-students{text-align: left;font-size: 25px; padding-left: 5px;}
+.container-listStud-table{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 200px;
+}
+.listStud-table{
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+.stud-th1{width: 60px;background-color: #cccccc;border: 1px solid black;text-align: center;height: 80px;}
+.stud-th2{width: 300px;background-color: #cccccc;border: 1px solid black;text-align: center;height: 80px;}
+.stud-th3{width: 120px;background-color: #cccccc;border: 1px solid black;text-align: center;height: 80px;}
+
+.stud-td1{width: 60px;background-color: white;border: 1px solid black;text-align: center;height: 80px;}
+.stud-td2{width: 300px;background-color: white;border: 1px solid black;text-align: center;height: 80px;}
+.stud-td3{width: 120px;background-color: white;border: 1px solid black;text-align: center;height: 80px;}
+
+
+/* Изменить студента */
+.block-text-over-form{
+    display: flex;
+    align-items:center;
+    height: 12vh;
+    /* background-color: green; */
+}
+.text-over-form{
+
+    text-align: left;
+    font-size: 20px;
+}
+.form-terms-fish{height: 15vh; display: flex; flex-direction: column; align-items: flex-start;justify-content: space-evenly;font-size: 18px;font-weight: 500;margin-top: 30px;margin-bottom: 20px;}
+.center3container{
+    display: flex;
+    height: 30vh;
+    width: 50%;
+    margin-top: 5vh;
+    align-content:space-between ;
+}
+.for-term-eror{flex-direction: column; height: 50vh;}
+.stud-persist-form{display: flex;flex-direction: column;}
+.container-name-forms{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.flex-outer li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.label{
+    width: 200px;
+    text-align: end;
+    padding-right: 5px;
+    margin-bottom: 20px;
+
+}
+.input{
+    border: 2px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.container-one-student-table{
+    /* background-color: aqua; */
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
+    min-height: 10vh;
+}
+.one-student-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.one-student-table-cell{
+    width: 30%;
+    padding-left: 5px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.one-student-table  th{background-color: #bbbbbb;}
+.stGroup{width: 10%;}
+.button{
+    border: 2px solid black;
+    width: 100px;
+    font-family: cursive;
+    font-size: 10px;
+    justify-self: start;
+    margin-right: 100px;
+    background-color: #bbbbbb;
+    border-radius: 3px;
+}
+.container-discipline-terms{
+    display: flex;
+    margin-bottom: 100px;
+
+
+}
+.discipline-one-ctudent-table{
+    background-color: #eeeeee;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 40%;
+    height: 30px;
+
+}
+.discipline-cell{
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 5px;
+    height: 14vh;
+}
+.discipline-one-ctudent-table th{
+    background-color: #bbbbbb;
+}
+.discipline-terms-left-container{
+    display: flex;
+    flex-direction: column;
+}
+.sudent-progress-form{
+    display: flex;
+    margin-left: 50px;
+}
+.average-grade{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.error{
+    color: red; margin-left: 50px; margin-top: 50px; font-size: 20px;text-align: center;
+}
+
+
